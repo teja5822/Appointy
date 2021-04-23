@@ -1,0 +1,30 @@
+.goalsSubContainer {
+  margin: 10vh 0;
+  background-color: #f2f5f9;
+  border-radius: 10px;
+  padding: 5vh;
+}
+
+.goalImg {
+  width: 80%;
+  height: auto;
+  padding-top: 4vh;
+}
+
+.goalImgContainer {
+  text-align: center;
+}
+
+@media only screen and (orientation: landscape) {
+  .goalsSubContainer {
+    margin: 5vw 0;
+    background-color: #f2f5f9;
+    border-radius: 10px;
+    padding: 3vw 5vw;
+  }
+  .goalImg {
+    width: 80%;
+    height: auto;
+    padding-top: 0;
+  }
+}

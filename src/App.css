@@ -1,0 +1,70 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App {
+  background-color: #fcfdff;
+  color: #7b7b7b;
+  font-family: "Nunito";
+}
+
+.headerText {
+  color: #414a4d;
+}
+
+.subText {
+  font-size: 16px;
+  color: #7b7b7b;
+}
+
+.itemHeaderText {
+  color: #414a4d;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.itemSubText {
+  color: #7b7b7b;
+  font-size: 14px;
+}
+
+.itemContainer {
+  padding: 30px;
+}
+
+.headerContainer {
+  padding: 10vh 0;
+}
+
+.mainContainer {
+  padding: 7vh 0;
+}
+
+.btnPrimary {
+  background: linear-gradient(
+    90deg,
+    rgba(157, 0, 122, 1) 0%,
+    rgba(211, 71, 122, 1) 35%,
+    rgba(254, 83, 85, 1) 100%
+  );
+  color: white !important;
+  border-radius: 20px !important;
+  padding: 1% 5% !important;
+}
+
+.btnTertiary {
+  border-radius: 25px !important;
+  padding: 1% 5% !important;
+  border: 2px solid #dc436e !important;
+  color: #dc436e !important;
+}
+
+@media only screen and (orientation: landscape) {
+  .headerContainer {
+    padding: 5vw 0;
+  }
+  .mainContainer {
+    padding: 5vw 0 3vw 0;
+  }
+}

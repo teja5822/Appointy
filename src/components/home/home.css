@@ -1,0 +1,24 @@
+h1 {
+  font-weight: bolder;
+}
+
+.homeContainer {
+  padding: 10vh 0;
+}
+
+.happyEduImg {
+  width: 80vw;
+  height: auto;
+  padding-top: 5vh;
+}
+
+@media only screen and (orientation: landscape) {
+  .homeContainer {
+    padding: 5vw 0;
+  }
+  .happyEduImg {
+    width: 90%;
+    height: aut;
+    padding-top: 0;
+  }
+}

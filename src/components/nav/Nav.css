@@ -1,0 +1,18 @@
+.navItem > * {
+  padding: 0 10px;
+}
+
+.navContainer {
+  margin: 30px 0 30px 0;
+}
+
+.signUpBtn {
+  background: linear-gradient(
+    90deg,
+    rgba(157, 0, 122, 1) 0%,
+    rgba(211, 71, 122, 1) 35%,
+    rgba(254, 83, 85, 1) 100%
+  );
+  color: white !important;
+  border-radius: 20px !important;
+}

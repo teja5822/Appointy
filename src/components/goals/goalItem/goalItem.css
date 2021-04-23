@@ -1,0 +1,9 @@
+.goalItem {
+  padding: 5vh 0;
+}
+
+@media only screen and (orientation: landscape) {
+  .goalItem {
+    padding: 0 3vw;
+  }
+}
